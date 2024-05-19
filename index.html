@@ -20,8 +20,8 @@
 			str = prompt("密码是你的生日~");
 			if (str != "1007") {
 				alert("密码错误~");
-				window.opener=null;
-				window.close();
+				window.opener = null
+				window.open('about:blank', '_top').close()
 			}
 		</script>
 	</head>
